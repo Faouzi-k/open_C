@@ -58,6 +58,36 @@ Non Signés
 	Total = pomme * prix ;
 	printf ("%.2f"  " DA\n",Total);
 	*/
+	/*
+	 if (age == 2)
+	{
+	    printf("Salut bebe !");
+	}
+		else if (age == 6)
+	{
+    	printf("Salut gamin !");
+	}
+		else if (age == 12)
+	{
+    	printf("Salut jeune !");
+	}
+		else if (age == 16)
+	{
+    	printf("Salut ado !");
+	}
+		else if (age == 18)
+	{
+	    printf("Salut adulte !");
+	}
+		else if (age == 68)
+	{
+    	printf("Salut papy !");
+	}
+		else
+	{
+    	printf("Je n'ai aucune reponse pour ton age");
+	}
+	*/
 
 	int choixMenu ;
 	printf ("=== Menu === \n 1. Royal Cheese \n 2. Mc Deluxe \n 3. Mc Bacon \n 4. Big Mac \n Votre choix s'il vous plais ?\n");
