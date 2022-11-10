@@ -47,15 +47,40 @@ Non Signés
 	nombre %= 3; // ... nombre vaut 2 (car 5 = 1 * 3 + 2)
 	printf ("%d\n" , nombre);
 	*/
+	/*
 	int pomme ;
 	float prix , Total ;
-	printf("\t Programme qui calcule le Total\n");
+	printf("\t Programme qui calcule le Total\n")
 	printf ("Combien de pomme a tu vendu\n");
 	scanf ("%d" , &pomme);
 	printf ("Combien est le prix de la pomme\n");
 	scanf ("%f" ,&prix );
 	Total = pomme * prix ;
 	printf ("%.2f"  " DA\n",Total);
+	*/
 
+	int choixMenu ;
+	printf ("=== Menu === \n 1. Royal Cheese \n 2. Mc Deluxe \n 3. Mc Bacon \n 4. Big Mac \n Votre choix s'il vous plais ?\n");
+	
+	scanf ("%d" , &choixMenu);
+	switch (choixMenu)
+	{
+		case 1:
+		  printf ("tu as choisi le menu Royal Cheese\n");
+		  break;
+		case 2:
+		  printf ("tu as choisi le menu Mc Deluxe\n");
+		  break;
+		case 3:
+		  printf ("tu as choisi le menu Mc Bacon\n");
+		  break;
+		case 4:
+		  printf ("tu as choisi le menu Big Mac\n");
+		  break;
+		default:
+		  printf ("Vous n'avez pas rentre un nombre correct !\n");
+		  break;
+	}
+	
 	return 0;
 }
